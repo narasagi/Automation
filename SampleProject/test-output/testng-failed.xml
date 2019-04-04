@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.app.tests.HomeAndMoreTabTest">
+        <methods>
+          <include name="clickOnGovernmentSchemesLink"/>
+          <include name="scrollHorizontal"/>
+          <include name="tearDown"/>
+          <include name="clickOnHomeButton"/>
+          <include name="clickOnMoreTabButton"/>
+          <include name="enterInputDataInSearchField"/>
+          <include name="startApp"/>
+          <include name="scrollToBottom"/>
+          <include name="clickOnAccessWeatherDetails"/>
+        </methods>
+      </class> <!-- com.app.tests.HomeAndMoreTabTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
